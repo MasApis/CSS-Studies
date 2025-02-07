@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>
+
+        /* Internal CSS */
+        /* 
+            property dan value yang digunakan sama dengan yang ada pada penerapan inline CSS,
+            
+            Ada selector .red, .green, .blue kok nama selectory nya seperti itu ?
+            Nah selector itu di ambil dari value atribut class yang berada pada tag paragraf.
+
+            Kan ada 3 paragraf tuh, pada penerapan inline css sebelumnya menerapkan 3 warna
+            berbeda pada 3 paragraf cukup diterapkan langsung pada tag <p>. Pada internal css
+            kita harus memberikan sebuah class agar bisa memberikan style yang berbeda pada 3 paragraf
+            tersebut.
+        */
+
+        body {
+            width: 50%;
+        }
+
+        h1 {
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 60px;
+        }
+
+        .red {
+            color: red;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            text-align: justify;
+        }
+
+        .green {
+            color: green;
+            font-family: 'sans-serif', Times, serif;
+            font-size: 30px;
+            text-align: justify;
+        }
+
+        .blue {
+            color: blue;
+            font-family: 'Arial', Times, serif;
+            font-size: 30px;
+            text-align: justify;
+        }
+
+        button {
+            font-size: 30px;
+            color: white;
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>ABDUL HAFIDZ</h1>
+    <p class="red">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos vel nobis eos ad voluptate delectus
+        unde. In odit suscipit autem tempora beatae impedit vitae recusandae. Ad earum eum sed dolorum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam recusandae perferendis, exercitationem
+        voluptate aperiam eius, eveniet architecto sit ad magni tenetur voluptatum. Nihil similique recusandae
+        excepturi vero ad repudiandae magni!
+    </p>
+    <p class="green">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos vel nobis eos ad voluptate
+        delectus unde. In odit suscipit autem tempora beatae impedit vitae recusandae. Ad earum eum sed dolorum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam recusandae perferendis, exercitationem
+        voluptate aperiam eius, eveniet architecto sit ad magni tenetur voluptatum. Nihil similique recusandae
+        excepturi vero ad repudiandae magni!
+    </p>
+    <p class="blue">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos vel nobis eos ad voluptate
+        delectus unde. In odit suscipit autem tempora beatae impedit vitae recusandae. Ad earum eum sed dolorum!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam recusandae perferendis,
+        exercitationem voluptate aperiam eius, eveniet architecto sit ad magni tenetur voluptatum.
+        Nihil similique recusandae excepturi vero ad repudiandae magni!
+    </p>
+    <button>Tekan aje</button>
+
+</body>
+</html>
