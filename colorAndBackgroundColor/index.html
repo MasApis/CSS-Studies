@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color and Background Color</title>
+    <style>
+
+        .box-colorName {
+            background-color: blue; /* Warna latar belakang menggunakan "nama warna" */
+            color: white; /* Warna teks menggunakan "nama warna" */
+            padding: 20px; /* Memberikan padding atas, bawah, kiri, dan kanan sebesar 20 piksel */
+            text-align: center; /* Membuat teks berada di tengah */
+            border: 10px solid red;
+            /* 
+                value pada properti border
+                10px = Ketebalan border sebesar 10 piksel
+                solid = Jenis border yang digunakan
+                red = Warna border menggunakan "nama warna"
+            */
+        }
+
+        .box-text-hexa {
+            width: 70%; /* Mengatur lebar dari class box-text sebesar 70% */
+            color: #ffff; /* Warna teks menggunakan "hexadesimal" */
+            background-color: #3674B5; /* Warna latar belakang menggunakan "hexadesimal" */
+            margin-top: 5px; /* Memberikan margin atas sebesar 5 pikser */
+            padding: 20px; /* Memberikan padding atas, bawah, kiri, dan kanan sebesar 20 piksel */
+            text-align: justify; /* Membuat teks rata kiri dan kanan */
+            border: 10px solid #578FCA;
+            /* 
+                value pada properti border
+                10px = Ketebalan border sebesar 10 piksel
+                solid = Jenis border yang digunakan
+                #578FCA = Warna border menggunakan "hexadesimal"
+            */
+        }
+
+        .box-text-rgb-rgba {
+            width: 70%; /* Mengatur lebar dari class box-text sebesar 70% */
+            color: rgb(255, 255, 255); /* Warna teks menggunakan "rgb(red, green, blue)" */
+            background-color: rgb(0, 10, 252); /* Warna latar belakang menggunakan "rgb(red, green, blue)" */
+            margin-top: 5px; /* Memberikan margin atas sebesar 5 pikser */
+            padding: 20px; /* Memberikan padding atas, bawah, kiri, dan kanan sebesar 20 piksel */
+            text-align: justify; /* Membuat teks rata kiri dan kanan */
+            border: 10px solid rgba(30, 13, 150, 0.93);
+            /* 
+                value pada properti border
+                10px = Ketebalan border sebesar 10 piksel
+                solid = Jenis border yang digunakan
+                rgba(30, 13, 150, 0.93) = Warna border menggunakan rgba(red, green, blue, alpha)
+            */
+        }
+
+        .box-text-hsl-hsla {
+            width: 70%; /* Mengatur lebar dari class box-text sebesar 70% */
+            color: hsl(180, 0%, 0%); /* Warna teks menggunakan "hsl(hue, saturation, lightness)" */
+            background-color: hsl(58, 100%, 50%); /* Warna latar belakang menggunakan "hsl(hue, saturation, lightness)" */
+            margin-top: 5px; /* Memberikan margin atas sebesar 5 pikser */
+            padding: 20px; /* Memberikan padding atas, bawah, kiri, dan kanan sebesar 20 piksel */
+            text-align: justify; /* Membuat teks rata kiri dan kanan */
+            border: 10px solid hsla(120, 100%, 50%, 1);
+            /* 
+                value pada properti border
+                10px = Ketebalan border sebesar 10 piksel
+                solid = Jenis border yang digunakan
+                hsla(120, 100%, 50%, 1) = Warna border menggunakan hsla(hue, saturation, lightness, alpha)
+            */
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="box-colorName">
+        <h1>Ini adalah heading di dalam box</h1>
+        <h2>Nama Warna</h2>
+    </div>
+    <div class="box-text-hexa">
+        <h2>Hexadesimal</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe deleniti
+            aperiam est a similique laborum recusandae, impedit asperiores culpa dolorem
+            ipsa libero officiis doloribus quaerat? Repudiandae quis architecto dolorum
+            aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            dolor sapiente quos placeat rem fugit et, fugiat facilis quisquam nam beatae
+            voluptatem, at suscipit, ducimus provident eveniet odit soluta recusandae.
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus molestiae
+            ex debitis, sit quae ipsum voluptas earum iste? Fugit ab molestiae eius, excepturi
+            autem temporibus animi nam veritatis. Ut, quibusdam. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Quisquam dicta a doloribus ullam, recusandae labore
+            alias animi asperiores? Quae similique laudantium modi quo tempore facilis
+            repudiandae tempora iure? Nostrum, fugiat.
+        </p>
+    </div>
+    <div class="box-text-rgb-rgba">
+        <h2>RGB(Red, Green, Blue)</h2>
+        <h2>RGBA(Red, Green, Blue, Alpha)</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe deleniti
+            aperiam est a similique laborum recusandae, impedit asperiores culpa dolorem
+            ipsa libero officiis doloribus quaerat? Repudiandae quis architecto dolorum
+            aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            dolor sapiente quos placeat rem fugit et, fugiat facilis quisquam nam beatae
+            voluptatem, at suscipit, ducimus provident eveniet odit soluta recusandae.
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus molestiae
+            ex debitis, sit quae ipsum voluptas earum iste? Fugit ab molestiae eius, excepturi
+            autem temporibus animi nam veritatis. Ut, quibusdam. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Quisquam dicta a doloribus ullam, recusandae labore
+            alias animi asperiores? Quae similique laudantium modi quo tempore facilis
+            repudiandae tempora iure? Nostrum, fugiat.
+        </p>
+    </div>
+    <div class="box-text-hsl-hsla">
+        <h2>HSL(Hue, Saturation, Lightness)</h2>
+        <h2>HSLA(Hue, Saturation, Lightness, Alpha)</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe deleniti
+            aperiam est a similique laborum recusandae, impedit asperiores culpa dolorem
+            ipsa libero officiis doloribus quaerat? Repudiandae quis architecto dolorum
+            aperiam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            dolor sapiente quos placeat rem fugit et, fugiat facilis quisquam nam beatae
+            voluptatem, at suscipit, ducimus provident eveniet odit soluta recusandae.
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus molestiae
+            ex debitis, sit quae ipsum voluptas earum iste? Fugit ab molestiae eius, excepturi
+            autem temporibus animi nam veritatis. Ut, quibusdam. Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Quisquam dicta a doloribus ullam, recusandae labore
+            alias animi asperiores? Quae similique laudantium modi quo tempore facilis
+            repudiandae tempora iure? Nostrum, fugiat.
+        </p>
+    </div>
+
+</body>
+</html>
