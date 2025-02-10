@@ -1,0 +1,46 @@
+/* Selector Elemen */
+p {
+    font-size: 20px;
+}
+
+/* Selector Class */
+.text-red {
+    color: red;
+}
+
+/* Selector ID */
+#header {
+    background-color: yellow;
+}
+
+/* Selector Universal */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Selector Atribut */
+a[target="_blank"] {
+    color: green;
+}
+
+/* Selector Pseudo-class */
+a:hover {
+    font-size: 1.5em;
+    color: orange;
+}
+
+/* Selector Pseudo-element */
+.first-line-green::first-line {
+    font-size: 30px;
+    color: green;
+}
+
+/* Selector Kombinasi */
+div p {
+    color: purple;
+}
+
+/* Selector Grup */
+h1, h2, h3 {
+    color: purple;
+}
