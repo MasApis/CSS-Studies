@@ -1,0 +1,121 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    border: 1.5em solid #3674B5;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #2f1c6a;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+header p {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+header a {
+    color: #2f1c6a;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header .link-pdf {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section h2 {
+    color: #2f1c6a;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+section p {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+footer {
+    font-size: 1.5em;
+    background-color: #2f1c6a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* 
+
+    Berikut adalah penjelasan dari kode CSS yang ada di atas
+    Maaf ada properti dan penggunaan selector yang belum dibahas,
+    namun tetap dijelaskan kok tenang saja ya.
+
+    1. Aturan untuk body
+       - max-width: 800px; -> Awalnya aku Mengatur lebar <body> menjadi 50% dari lebar layar.
+         Namun, ini bisa menyebabkan layar terlalu sempit hehehe, Solusinya adalah dengan menerapkan
+         properti max-width, agar lebar body tidak lebih dari 800px.
+       - margin: 0 auto; -> digunakan agar konten yang ada di dalam body berada di tengah secara horizontal
+       - font-family: Arial, Helvetica, san-serif; -> Mengatur font teks agar menggunakan Arial terlebih
+         dahulu. Jika tidak tersedia, akan menggunakan Helvetica, dan terakhir jenis font san-serif lainnya.
+
+    2. Aturan untuk main
+       - border: 2px solid #3674B5; -> Memberikan garis tepi (border) dengan ketebalan 2px, warna biru #3674B5,
+         dengan gaya solid (tidak putus-putus).
+       - padding: 15px; -> Memberikan ruang di dalam elemen main, sehingga konten tidak langsung menempel pada batasnya
+
+    3. Aturan header h1
+       - header h1 -> Berarti aturan ini berlaku untuk elemen <h1> yang ada di dalam <header> saja.
+       - font-size: 2em; -> Membuat ukuran teks <h1> menjadi 3 kali lebih besar dari ukuran default.
+       - line-height: 1em; -> Mengatur tinggi baris agar sama dengan ukuran font, sehingga jarak antar baris tidak terlalu 
+         besar.
+       
+    4. Aturan header p
+       - header p -> Berarti aturan ini berlaku untuk elemen <p> yang ada di dalam <header> saja.
+       - font-size: 17px; -> Menetapkan ukuran font sebesar 17 piksel.
+       - font-weight: 400; -> Menjaga teks dalam ketebalan normal.
+       - letter-spacing: 2px; -> Menambahkan jarak antar huruf sebesar 2 piksel agar lebih terbaca.
+       - line-height: 1.5; -> Mengatur tinggi baris menjadi 1.5 kali ukuran font agar tidak terlalu rapat.
+
+    5. Aturan header a
+       - header a -> Berarti aturan ini berlaku untuk elemen <a> yang ada di dalam <header>.
+       - color: #2f1c6a; -> Mengatur warna teks yang berada di dalam elemen <a>.
+       - text-decoration: none; -> Menghilangkan garis bawah bawaan dari elemen <a>.
+       - font-weight: 500; -> Membuat teks memiliki ketebalan menengah.
+
+    6. Aturan header .link-pdf
+       - header .link-pdf -> Berarti aturan ini berlaku untuk tag html yang memiliki class "link-pdf"
+       - text-align: center; -> Membuat teks berada di tengah.
+       - font-size: 1.5em; -> Membuat ukuran font sebesar setengah kali lipat dari ukuran normal.
+
+    7. Aturan section h2
+       - section h2 -> Berarti aturan ini berlaku untuk elemen <h2> yang ada di dalam <section>
+       - color: #2f1c6a; -> Memberikan warna ungu gelap pada teks h2
+       - font-size: 2em; -> Menjadikan ukuran teks h2 dua kali lebih besar dari ukuran normal.
+       - font-weight: 700; -> Membuat teks menjadi tebal (bold).
+
+    8. Aturan section p
+       - section p -> Berarti aturan ini berlaku untuk elemen <p> yang ada di dalam <section>.
+       - font-size: 17px; -> Menetapkan ukuran font sebesar 17 piksel.
+       - letter-spacing: 2px; -> Memberikan jarak antar huruf sebesar 2 piksel.
+       - line-height: 1.5; -> Mengatur tinggi baris menjadi 1.5 kali ukuran font agar lebih nyaman dibaca.
+
+    9. Aturan footer
+       - font-size: 1.5em; -> Membuat ukuran font sebesar setengah kali lipat dari ukuran normal.
+       - background-color: #2f1c6a; -> Memberikan warna ungu gelap pada latar belakang.
+       - color: #ffffff; -> Memberikan warna putih pada teks.
+       - padding: 20px; -> Memberikan ruang di dalam elemen agar kontennya tidak menempel ke tepi.
+       - text-align: center; -> Membuat teks berada di tengah elemen footer.
+
+*/
